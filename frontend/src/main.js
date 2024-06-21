@@ -1,6 +1,12 @@
-import './assets/main.css'
+import { createApp } from "vue";
 
-import { createApp } from 'vue'
-import App from './App.vue'
+// const app = createApp({
+//     data() {
+//         return {
+//             name: 'Sade Software',
+//         };
+//     },
+//     template: `<h1>We are {{name}}!</h1>`
+// });
 
-createApp(App).mount('#app')
+// app.mount('#app');
